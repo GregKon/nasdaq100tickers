@@ -5,7 +5,7 @@ description = "Return NASDAQ 100 ticker symbols by date."
 authors = [{ name = "Jeff McCarrell", email = "jeff@mccarrell.org" }]
 requires-python = "~=3.10"
 license = "MIT"
-dependencies = ["strictyaml>=1.7.3,<2"]
+dependencies = ["strictyaml>=1.7.3,<2", "pytest (>=8.3.5,<9.0.0)"]
 
 [dependency-groups]
 test = ["pytest~=7.0"]
